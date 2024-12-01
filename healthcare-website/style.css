@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Patua+One);
+@import url(https://fonts.googleapis.com/css?family=Armata);
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+
+}
+
+p {
+  margin-bottom: 2em;
+}
+
+.textShadow {
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.boxShadow {
+  -webkit-box-shadow:  0px 0px 10px 0px rgba(0, 0, , 0.5);
+  box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.home {
+  position: center;
+
+  margin: 0 auto;
+  width: 100%;
+  height: 60%;
+  background: url("images/main.jpg") 50% 0 repeat fixed;
+}
+
+.about {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 600px;
+  background: url("images/background.jpg") 50% 0 repeat fixed;
+
+}
+.flash{
+  width = 60%;
+
+}
+.contact {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 60%;
+
+  background: url("images/main.jpg") 50% 0 repeat fixed;
+}
+.contactlast {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 130%;
+
+  background: url("images/main.jpg") 50% 0 repeat fixed;
+}
+
+.text-correction-big{
+    font-size: 4vw;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.text-correction-small{
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+
+}
+.text-correction-xsmall{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+
+}
+
+.content {
+  position: absolute;
+  top: 50px;
+  width: 80%;
+  height: 458px;
+  padding: 0 10%;
+  text-align: center;
+}
+
+
+
+
+
+/*circular image----------------------------*/
+.caption div {
+    box-shadow: 0 0 5px #C8C8C8;
+    transition: all 0.3s ease 0s;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-circle {
+    border-radius: 0;
+}
+
+.ratio {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+/*----------------------------------*/
+
+
+
+/* Pychart css -----------------------------------*/
+.mp-ct {
+    margin: 1em auto;
+    width: 300px; height: 300px;
+  }
+  .mp-bg {
+    overflow: hidden;
+    position: absolute;
+    width: 300px; height: 300px;
+    border-radius: 50%;
+  }
+  .hold-right {
+    position: absolute;
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+  }
+  .hold-left {
+    position: absolute;
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+    margin-right: 50%;
+  }
+  .mp {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  /*colors*/
+  .color-blue { background-color: #5DA5DA; }
+  .color-orange { background-color: #FAA43A; }
+  .color-yellow { background-color: #DECF3F; }
+  .color-red { background-color: #F15854; }
+  .color-green { background-color: #60BD68; }
+
+  /*rotations*/
+  .rt-left-0 { transform-origin:left; transform: rotate(0deg); }
+  .rt-left-40 { transform-origin:left; transform: rotate(40deg); }
+  .rt-left-100 { transform-origin:left; transform: rotate(100deg); }
+  .rt-right-0 { transform-origin:right; transform: rotate(0deg); }
+  .rt-right-30 { transform-origin:right; transform: rotate(30deg); }
+  .rt-right-60 { transform-origin:right; transform: rotate(60deg); }
+
+  /*squares*/
+  .sq{
+    height: 40px;
+    width: 40px;
+    padding: 40px;
+
+
+  }
+
+
+
+  /* Pychart css -----------------------------------*/
